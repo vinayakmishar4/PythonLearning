@@ -1,0 +1,53 @@
+# loop
+
+# while
+
+n=5
+while n>0:
+    n=n-1
+    print(n)
+
+ # for loop
+
+for n in range(5):
+    print(n)
+
+# find the largest number and samllest number
+
+
+# counting varaiable
+
+count=0
+for x in range(6):
+    count=count+1
+    print(count,x)
+
+# summing in a loop
+
+c=0
+for x in range(6):
+    c=c+x
+    print(c,x)
+
+# average in a loop
+
+a=0
+sum=0
+for x in range(6):
+    a=a+1
+    sum=sum+x
+    print(a,sum,x)
+print(a,sum,sum/a)
+
+#filtering in a loop
+
+for x in range(20):
+    if  10<=x<=20:
+        print("10 to 20 number",x)
+
+# seraching elements using boolean
+found=False
+for x in range(20):
+    if 10<=x<=15:
+        found=True
+    print(found,x)
