@@ -1,0 +1,17 @@
+# Wtite the Paildrome of Numbers
+
+a=int(input("Enter the Number = "))
+sum=0
+temp=a
+
+while a>0:
+    r=a%10
+    sum=sum*10+r
+    a=int(a/10)
+
+
+if (temp==sum):
+
+    print("This  is a Paildrome Number ")
+else:
+    print("This is not a Paildrome Number")
