@@ -1,0 +1,16 @@
+# Constants
+print(123)
+print(98.6)
+print('hello World')
+
+#Variables
+
+x=122
+print(x)
+y=34
+print(y)
+
+
+x=2 # Assgiment Statement
+x=x+2 #Assgiment Statement with Expersion
+print(x) # print Statement
