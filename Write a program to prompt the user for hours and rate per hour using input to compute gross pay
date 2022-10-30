@@ -1,0 +1,8 @@
+hrs=float(input("Enter the Hours = "))
+Rate=float(input("Enter the Rate Per hour = "))
+Pay=hrs*Rate
+
+if  hrs<=40:
+    print(hrs*Rate)
+elif hrs>40:
+    print(40*Rate+(hrs-40)*1.5*Rate)
