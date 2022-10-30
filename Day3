@@ -1,0 +1,10 @@
+# Conditional Statements
+
+# if Condtitonal
+
+x=int(input("Enter The Age +"))
+
+if(x<10):
+    print("Samller")
+
+print("Boy")
