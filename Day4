@@ -1,0 +1,22 @@
+# else if conditon
+y=int(input("Enter the Number = "))
+if y%2==0:
+    if 2<=y<=5:
+        print("Not Weird")
+    elif 6<=y<=20:
+        print("Weird")
+    elif y>20:
+        print("Not Weird")
+
+else:
+    print("Weird")
+
+x = 0
+if x < 2 :
+    print('Small')
+elif x < 10 :
+    print('Medium')
+else :
+    print('LARGE')
+print('All done')
+
