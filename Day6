@@ -1,0 +1,51 @@
+#string Sicilings
+
+s='Montty Python'
+print(s[0:6])
+print(s[6:20])
+print(s[0:20])
+
+
+# String Concatenation
+name=input("Enter First name")
+name2=input("Enter Last name")
+
+name1=name+" "+name2
+
+print("My name is ",name1)
+
+# in logical operators
+fruit="kiwi"
+
+print('i' in fruit)
+print('w' in fruit)
+
+if 'k' in fruit:
+    print("Found it ");
+
+# String Comparisons
+
+Word=input("Fruit name = ")
+
+if Word=="apple":
+    print("this Fruit is apple")
+elif Word<'apple':
+    print("this is Fruit is not apple ,this Fruit is ",Word)
+
+# brefore using zap function
+
+print("Starting letter is  samll letter",Word)
+print('Starting Letter is  Capital Letter',Word.lower())
+# find function in String
+pos1=fruit.find("k")
+pos2=fruit.find("i")
+print(pos1)''
+print(pos2)
+
+# UpperCase
+print("Name with UpperCase",name.upper())
+# lowerCase
+print("Name with Lowercase",name.lower())
+# replace function
+print("Name with replace function",fruit.replace('kiwi','Oranage'))
+''
